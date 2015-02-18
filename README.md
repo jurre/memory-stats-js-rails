@@ -15,15 +15,22 @@ gem 'memory-stats-js-rails'
 
 And then execute:
 
+```bash
 $ bundle
+```
 
 Or install it yourself as:
 
+```bash
 $ gem install memory-stats-js-rails
+```
 
 ## Usage
 
-In `app/assets/javascripts/application.js`: `//= require memory-stats`
+Add to `app/assets/javascripts/application.js`:
+```
+//= require memory-stats
+```
 
 And then something like:
 
